@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { reducers as frutaReducers } from './frutas.reducer';
+import { reducers as fruitReducers } from './fruits.reducer';
 
 const reducers = combineReducers({
-  frutaReducers,
+  fruitReducers,
 });
 
 export { reducers };

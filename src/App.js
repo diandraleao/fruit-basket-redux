@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ListaFrutas from './components/ListaFrutas';
+import ListFruit from './components/ListFruit';
 
 function App() {
   return (
     <div className="container">
-      <ListaFrutas />
+      <ListFruit />
     </div>
   );
 }
